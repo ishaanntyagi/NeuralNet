@@ -1,2 +1,3 @@
-# Intern-NeuralNet
+NeuralNet
 NeuralNetwork 
+....
