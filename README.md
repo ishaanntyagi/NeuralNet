@@ -1,7 +1,8 @@
 # Neural Network Implementation
 This repository contains a series of Jupyter notebooks documenting the foundational concepts and step-by-step implementation of Artificial Neural Networks (ANNs) from first principles, primarily using PyTorch (and some TensorFlow for comparison). The goal is to build a solid understanding of how neural networks work under the hood before diving into more complex deep learning architectures.
 
-Table of Contents
+# Table of Contents
+
 01-TensorOps.ipynb
 
 02-PTorch.ipynb
@@ -22,12 +23,12 @@ Table of Contents
 
 10-BatchNorm.ipynb
 
-01-TensorOps.ipynb
 
 
 
 
 
+# 01-TensorOps.ipynb
 This notebook introduces fundamental tensor operations, which are the building blocks of neural networks. It covers:
 
 Creating tensors in both TensorFlow and PyTorch.
@@ -38,14 +39,14 @@ Executing matrix multiplication.
 
 Demonstrating basic tensor manipulations like reshaping and summing.
 
-02-PTorch.ipynb
+# 02-PTorch.ipynb
 A focused introduction to PyTorch tensors. This notebook explores:
 
 Basic tensor creation in PyTorch.
 
 Checking tensor properties such as shape and data type.
 
-03-ActivationFn.ipynb
+# 03-ActivationFn.ipynb
 This notebook delves into various activation functions critical for neural networks. It demonstrates the application of:
 
 ReLU (Rectified Linear Unit)
@@ -55,7 +56,7 @@ Sigmoid
 Tanh (Hyperbolic Tangent)
 Implementations are shown using both torch.nn and tf.nn modules for comparative understanding.
 
-04-DataProcessNN.ipynb
+# 04-DataProcessNN.ipynb
 Focuses on the essential steps of preparing data for neural network training, including:
 
 Loading a dataset (e.g., Iris dataset from sklearn).
@@ -68,7 +69,7 @@ Converting NumPy arrays to PyTorch tensors.
 
 Introduction to PyTorch's Dataset and DataLoader for efficient data handling and mini-batching.
 
-05-Perceptron.ipynb
+# 05-Perceptron.ipynb
 This notebook implements the fundamental unit of a neural network: the Perceptron. It covers:
 
 Defining a Perceptron class from scratch.
@@ -79,7 +80,7 @@ Implementing the forward pass to calculate the weighted sum and apply a step-lik
 
 Demonstrating a simple prediction with the initialized perceptron.
 
-06-perceptron-Learning.ipynb
+# 06-perceptron-Learning.ipynb
 Extends the Perceptron implementation to include a basic learning mechanism. This notebook shows:
 
 How a single perceptron learns from data.
@@ -90,7 +91,7 @@ Weight and bias updates based on the error (Perceptron Learning Algorithm).
 
 Demonstration using a simple dataset (e.g., XOR-like logic or a linearly separable dataset).
 
-07-LossFunc.ipynb
+# 07-LossFunc.ipynb
 Explores the concept and implementation of loss (or cost) functions, which quantify the error of a model's predictions. This notebook demonstrates:
 
 Mean Squared Error (MSE) for regression tasks.
@@ -99,7 +100,7 @@ Binary Cross-Entropy (BCE) for binary classification tasks.
 
 Conceptual explanations of different loss functions and their purposes.
 
-08-HiddenLayers.ipynb
+# 08-HiddenLayers.ipynb
 Moves beyond a single perceptron to implementing a full Multi-Layer Perceptron (MLP) with hidden layers. This notebook showcases:
 
 Defining a SimpleNeuralNetworkHidden class to build an ANN with multiple hidden layers.
@@ -112,7 +113,7 @@ Manual implementation of the Backpropagation algorithm and Gradient Descent for 
 
 Demonstrating the training process and observing the loss reduction over epochs.
 
-09-AdamOptm.ipynb
+# 09-AdamOptm.ipynb
 Introduces a more advanced optimization algorithm, Adam, to improve the training efficiency of neural networks. This notebook:
 
 Refactors the neural network class to leverage torch.nn.Module for better parameter management.
@@ -123,7 +124,7 @@ Compares the training loop using Adam to manual gradient updates.
 
 Demonstrates how Adam automatically handles gradient updates and momentum.
 
-10-BatchNorm.ipynb
+# 10-BatchNorm.ipynb
 Explores the concept and application of Batch Normalization, a technique used to stabilize and accelerate neural network training. This notebook covers:
 
 Introduction to the purpose of Batch Normalization (normalizing layer inputs).
@@ -134,7 +135,7 @@ Demonstrating the effect of Batch Normalization on input distributions (mean and
 
 How Batch Normalization can lead to faster and more stable convergence.
 
-How to Use
+# How to Use
 Each notebook is designed to be self-contained and runnable. To explore the code and concepts:
 
 Clone this repository (if applicable) or download the notebooks.
