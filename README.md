@@ -1,4 +1,4 @@
-# Neural Network Implementation
+# Neural Network Implementation.
 This repository contains a series of Jupyter notebooks documenting the foundational concepts and step-by-step implementation of Artificial Neural Networks (ANNs) from first principles, primarily using PyTorch (and some TensorFlow for comparison). The goal is to build a solid understanding of how neural networks work under the hood before diving into more complex deep learning architectures.
 
 # Table of Contents
